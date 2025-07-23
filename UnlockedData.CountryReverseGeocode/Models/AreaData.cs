@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
-
-namespace Wibci.CountryReverseGeocode.Models
+namespace UnlockedData.CountryReverseGeocode.Models
 {
     //classes used to deserialize json data in Data folder:
 

@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "+qdWBqkqdjA=",
+  "success": true,
+  "projectFilePath": "E:\\Wibci.CountryReverseGeocode\\UnlockedData.CountryReverseGeocode.DataConversion\\UnlockedData.CountryReverseGeocode.DataConversion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\z1cscotney\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Newtonsoft.Json' 12.0.3 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "projectPath": "E:\\Wibci.CountryReverseGeocode\\UnlockedData.CountryReverseGeocode.DataConversion\\UnlockedData.CountryReverseGeocode.DataConversion.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\Wibci.CountryReverseGeocode\\UnlockedData.CountryReverseGeocode.DataConversion\\UnlockedData.CountryReverseGeocode.DataConversion.csproj",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

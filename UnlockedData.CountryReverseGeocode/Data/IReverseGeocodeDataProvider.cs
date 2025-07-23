@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Wibci.CountryReverseGeocode.Models;
+using UnlockedData.CountryReverseGeocode.Models;
 
-namespace Wibci.CountryReverseGeocode.Data
+namespace UnlockedData.CountryReverseGeocode.Data
 {
     public interface IReverseGeocodeDataProvider
     {

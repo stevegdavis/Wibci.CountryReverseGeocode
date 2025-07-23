@@ -5,10 +5,9 @@ using System.Linq;
 
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using UnlockedData.CountryReverseGeocode.Models;
 
-using Wibci.CountryReverseGeocode.Models;
-
-namespace Wibci.CountryReverseGeocode.DataConversion {
+namespace UnlockedData.CountryReverseGeocode.DataConversion {
     using Models;
     using System.Text;
 
@@ -19,9 +18,9 @@ namespace Wibci.CountryReverseGeocode.DataConversion {
         const string Indent4 = "                ";
         const string Indent5 = "                    ";
         const string Pre = @"using System.Collections.Generic;
-using Wibci.CountryReverseGeocode.Models;
+using UnlockedData.CountryReverseGeocode.Models;
 
-namespace Wibci.CountryReverseGeocode.Data
+namespace UnlockedData.CountryReverseGeocode.Data
 {
     public class CountryDataProvider : IReverseGeocodeDataProvider
     {

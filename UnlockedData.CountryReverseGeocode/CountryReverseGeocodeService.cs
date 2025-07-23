@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Wibci.CountryReverseGeocode.Data;
-using Wibci.CountryReverseGeocode.Models;
+using UnlockedData.CountryReverseGeocode.Data;
+using UnlockedData.CountryReverseGeocode.Models;
 
-namespace Wibci.CountryReverseGeocode
+namespace UnlockedData.CountryReverseGeocode
 {
     public interface ICountryReverseGeocodeService
     {

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Wibci.CountryReverseGeocode.Models;
+using UnlockedData.CountryReverseGeocode.Models;
 
-namespace Wibci.CountryReverseGeocode.Data
+namespace UnlockedData.CountryReverseGeocode.Data
 {
     public class CountryDataProvider : IReverseGeocodeDataProvider
     {

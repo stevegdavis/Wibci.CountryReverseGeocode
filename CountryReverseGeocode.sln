@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wibci.CountryReverseGeocode.Tests", "Wibci.CountryReverseGeocode.Tests\Wibci.CountryReverseGeocode.Tests.csproj", "{BAFEF4D7-A084-43C8-9ED8-F3802082E5BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnlockedData.CountryReverseGeocode", "UnlockedData.CountryReverseGeocode\UnlockedData.CountryReverseGeocode.csproj", "{E6B0DAC2-A2FE-4713-8470-91649763CEEA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wibci.CountryReverseGeocode", "Wibci.CountryReverseGeocode\Wibci.CountryReverseGeocode.csproj", "{E6B0DAC2-A2FE-4713-8470-91649763CEEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnlockedData.CountryReverseGeocode.DataConversion", "UnlockedData.CountryReverseGeocode.DataConversion\UnlockedData.CountryReverseGeocode.DataConversion.csproj", "{6E20E270-2A54-4C4B-98C0-BCB31843CB3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wibci.CountryReverseGeocode.DataConversion", "Wibci.CountryReverseGeocode.DataConversion\Wibci.CountryReverseGeocode.DataConversion.csproj", "{6E20E270-2A54-4C4B-98C0-BCB31843CB3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTests", "XUnitTests\XUnitTests.csproj", "{3F4B2F4D-C389-4CA3-9889-766BBAFFFAE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BAFEF4D7-A084-43C8-9ED8-F3802082E5BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BAFEF4D7-A084-43C8-9ED8-F3802082E5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BAFEF4D7-A084-43C8-9ED8-F3802082E5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BAFEF4D7-A084-43C8-9ED8-F3802082E5BE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E6B0DAC2-A2FE-4713-8470-91649763CEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E6B0DAC2-A2FE-4713-8470-91649763CEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6B0DAC2-A2FE-4713-8470-91649763CEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{6E20E270-2A54-4C4B-98C0-BCB31843CB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E20E270-2A54-4C4B-98C0-BCB31843CB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E20E270-2A54-4C4B-98C0-BCB31843CB3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F4B2F4D-C389-4CA3-9889-766BBAFFFAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4B2F4D-C389-4CA3-9889-766BBAFFFAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4B2F4D-C389-4CA3-9889-766BBAFFFAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4B2F4D-C389-4CA3-9889-766BBAFFFAE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Wibci.CountryReverseGeocode\\Wibci.CountryReverseGeocode.DataConversion\\Wibci.CountryReverseGeocode.DataConversion.csproj": {}
+  },
+  "projects": {
+    "E:\\Wibci.CountryReverseGeocode\\UnlockedData.CountryReverseGeocode\\UnlockedData.CountryReverseGeocode.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Wibci.CountryReverseGeocode\\UnlockedData.CountryReverseGeocode\\UnlockedData.CountryReverseGeocode.csproj",
+        "projectName": "UnlockedData.CountryReverseGeocode",
+        "projectPath": "E:\\Wibci.CountryReverseGeocode\\UnlockedData.CountryReverseGeocode\\UnlockedData.CountryReverseGeocode.csproj",
+        "packagesPath": "C:\\Users\\z1cscotney\\.nuget\\packages\\",
+        "outputPath": "E:\\Wibci.CountryReverseGeocode\\UnlockedData.CountryReverseGeocode\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\z1cscotney\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/unlockeddata/_packaging/unlockeddata/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Wibci.CountryReverseGeocode\\Wibci.CountryReverseGeocode.DataConversion\\Wibci.CountryReverseGeocode.DataConversion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Wibci.CountryReverseGeocode\\Wibci.CountryReverseGeocode.DataConversion\\Wibci.CountryReverseGeocode.DataConversion.csproj",
+        "projectName": "Wibci.CountryReverseGeocode.DataConversion",
+        "projectPath": "E:\\Wibci.CountryReverseGeocode\\Wibci.CountryReverseGeocode.DataConversion\\Wibci.CountryReverseGeocode.DataConversion.csproj",
+        "packagesPath": "C:\\Users\\z1cscotney\\.nuget\\packages\\",
+        "outputPath": "E:\\Wibci.CountryReverseGeocode\\Wibci.CountryReverseGeocode.DataConversion\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\z1cscotney\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/unlockeddata/_packaging/unlockeddata/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "E:\\Wibci.CountryReverseGeocode\\UnlockedData.CountryReverseGeocode\\UnlockedData.CountryReverseGeocode.csproj": {
+                "projectPath": "E:\\Wibci.CountryReverseGeocode\\UnlockedData.CountryReverseGeocode\\UnlockedData.CountryReverseGeocode.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

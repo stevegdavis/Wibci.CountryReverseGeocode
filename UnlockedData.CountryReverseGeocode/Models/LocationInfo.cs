@@ -1,4 +1,4 @@
-﻿namespace Wibci.CountryReverseGeocode.Models
+﻿namespace UnlockedData.CountryReverseGeocode.Models
 {
     public class LocationInfo
     {
