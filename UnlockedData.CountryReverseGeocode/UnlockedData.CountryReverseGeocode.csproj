@@ -1,12 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <RootNamespace>UnlockedData.CountryReverseGeocode</RootNamespace>
-    <AssemblyName>SDSDevelopment.$(MSBuildProjectName)</AssemblyName>
+    <AssemblyName>SDSDevelopment.Wibci.CountryReverseGeocode</AssemblyName>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-   
+	  <Version>1.1.0</Version>
+	  <AssemblyTitle>SDSDevelopment.Wibci.CountryReverseGeocode</AssemblyTitle>
+	  <PackageId>SDSDevelopment.Wibci.CountryReverseGeocode</PackageId>
+	  <Title>Country Reverse Geocode</Title>
+	  <Authors>SDSDevelopment.Wibci.CountryReverseGeocode</Authors>
+	  <Product>SDSDevelopment.Wibci.CountryReverseGeocode</Product>
+	  <BaseOutputPath>bin\</BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>

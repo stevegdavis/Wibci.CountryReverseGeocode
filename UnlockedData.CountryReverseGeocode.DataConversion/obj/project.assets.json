@@ -15,14 +15,14 @@
           }
         }
       },
-      "SDSDevelopment.UnlockedData.CountryReverseGeocode/1.0.0": {
+      "SDSDevelopment.Wibci.CountryReverseGeocode/1.1.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
-          "bin/placeholder/SDSDevelopment.UnlockedData.CountryReverseGeocode.dll": {}
+          "bin/placeholder/SDSDevelopment.Wibci.CountryReverseGeocode.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SDSDevelopment.UnlockedData.CountryReverseGeocode.dll": {}
+          "bin/placeholder/SDSDevelopment.Wibci.CountryReverseGeocode.dll": {}
         }
       }
     }
@@ -58,7 +58,7 @@
         "packageIcon.png"
       ]
     },
-    "SDSDevelopment.UnlockedData.CountryReverseGeocode/1.0.0": {
+    "SDSDevelopment.Wibci.CountryReverseGeocode/1.1.0": {
       "type": "project",
       "path": "../UnlockedData.CountryReverseGeocode/UnlockedData.CountryReverseGeocode.csproj",
       "msbuildProject": "../UnlockedData.CountryReverseGeocode/UnlockedData.CountryReverseGeocode.csproj"
@@ -67,7 +67,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Newtonsoft.Json >= 13.0.4",
-      "SDSDevelopment.UnlockedData.CountryReverseGeocode >= 1.0.0"
+      "SDSDevelopment.Wibci.CountryReverseGeocode >= 1.1.0"
     ]
   },
   "packageFolders": {
@@ -97,7 +97,8 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\SRC\\Mobile\\VS2022\\POIBinaryFormatLib\\bin\\Release": {},
+        "C:\\SRC\\Library\\Wibci.CountryReverseGeocode\\UnlockedData.CountryReverseGeocode\\bin\\Release": {},
+        "C:\\SRC\\Mobile\\POIBinaryFormatLib\\bin\\Release": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -120,7 +121,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -147,7 +148,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
