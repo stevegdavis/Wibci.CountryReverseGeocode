@@ -4,3 +4,4 @@ Reverse geocode a country or american state based on location point (latitude ; 
 https://github.com/InquisitorJax/Wibci.CountryReverseGeocode
 
 Added some new countries and improved accuracy of some countries mostly in Europe.
+Updated to .NET10 and migrated Newtonsoft.Json to System.Text.Json
