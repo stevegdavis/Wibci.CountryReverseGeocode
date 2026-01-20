@@ -1,10 +1,19 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "8HMzR++tgO0=",
   "success": true,
   "projectFilePath": "C:\\SRC\\Library\\Wibci.CountryReverseGeocode\\UnlockedData.CountryReverseGeocode.DataConversion\\UnlockedData.CountryReverseGeocode.DataConversion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\steve\\.nuget\\packages\\sdsdevelopment.wibci.countryreversegeocode\\1.1.9\\sdsdevelopment.wibci.countryreversegeocode.1.1.9.nupkg.sha512"
+=======
+  "dgSpecHash": "owuvyM/P9Gs=",
+  "success": true,
+  "projectFilePath": "C:\\SRC\\Library\\Wibci.CountryReverseGeocode\\UnlockedData.CountryReverseGeocode.DataConversion\\UnlockedData.CountryReverseGeocode.DataConversion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\steve\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
+    "C:\\Users\\steve\\.nuget\\packages\\sdsdevelopment.wibci.countryreversegeocode\\1.1.0\\sdsdevelopment.wibci.countryreversegeocode.1.1.0.nupkg.sha512"
+>>>>>>> Stashed changes
   ],
   "logs": []
 }
