@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using UnlockedData.CountryReverseGeocode.Models;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using Wibci.CountryReverseGeocode.Models;
 
 namespace UnlockedData.CountryReverseGeocode.DataConversion {
     using Models;
@@ -47,19 +47,26 @@ namespace UnlockedData.CountryReverseGeocode.Data
                 var outputAreaDataList = new List<AreaData>();
                 string fileContents = File.ReadAllText(filePath);
                 // var jsonReader = new JsonTextReader(new StringReader(fileContents));
-                JObject googleSearch = JObject.Parse(fileContents);
+                JsonDocument doc = JsonDocument.Parse(fileContents);
+                JsonElement root = doc.RootElement;
 
                 // get JSON result objects into a list
-                IList<JToken> areas = googleSearch["features"].Children().ToList();
+                var areas = root.GetProperty("features").EnumerateArray().ToList();
 
-                foreach (JToken area in areas) {
-                    bool isMultiPolygon = area["geometry"].Value<string>("type") == "MultiPolygon";
+                // Create serializer options once for reuse
+                var deserializeOptions = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+                var serializeOptions = new JsonSerializerOptions { WriteIndented = true };
+
+                foreach (var area in areas) {
+                    bool isMultiPolygon = area.GetProperty("geometry").GetProperty("type").GetString() == "MultiPolygon";
                     AreaData areaData;
                     if (isMultiPolygon) {
-                        InputMultiPolygonData inputAreaData = area.ToObject<InputMultiPolygonData>();
+                        string areaJson = area.GetRawText();
+                        InputMultiPolygonData inputAreaData = JsonSerializer.Deserialize<InputMultiPolygonData>(areaJson, deserializeOptions);
                         areaData = ConvertMultiPolygonData(inputAreaData);
                     } else {
-                        InputPolygonData inputAreaData = area.ToObject<InputPolygonData>();
+                        string areaJson = area.GetRawText();
+                        InputPolygonData inputAreaData = JsonSerializer.Deserialize<InputPolygonData>(areaJson, deserializeOptions);
                         areaData = ConvertPolygonData(inputAreaData);
                     }
                     outputAreaDataList.Add(areaData);
@@ -70,7 +77,7 @@ namespace UnlockedData.CountryReverseGeocode.Data
                 // write output list
                 string outputFileName = inputFileName[0..^5] + "-out.json";
                 var outputPath = Path.Combine(fileDirectory, outputFileName);
-                File.WriteAllText(outputPath, JsonConvert.SerializeObject(outputAreaDataList));
+                File.WriteAllText(outputPath, JsonSerializer.Serialize(outputAreaDataList, serializeOptions));
                 Console.WriteLine($"\tSimplified JSON written to '{outputPath}'.");
 
                 // c# output

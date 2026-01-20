@@ -1,5 +1,5 @@
-﻿using UnlockedData.CountryReverseGeocode.Models;
-using UnlockedData.CountryReverseGeocode;
+﻿using Wibci.CountryReverseGeocode.Models;
+using Wibci.CountryReverseGeocode;
 namespace XUnitTests;
 
 public class UnitTest1
@@ -11,11 +11,8 @@ public class UnitTest1
         var countryService = new CountryReverseGeocodeService();
         var location = new GeoLocation()
         {
-            Latitude = 49.007858265297706,
-           
-
-
-            Longitude = -123.06867315982991
+            Latitude = 51.745564,
+            Longitude = -2.218266
 
         };
         var locationNeth = new GeoLocation()

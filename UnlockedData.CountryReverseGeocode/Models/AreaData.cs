@@ -1,20 +1,19 @@
 ﻿using System.Collections.Generic;
-namespace UnlockedData.CountryReverseGeocode.Models
-{
-    //classes used to deserialize json data in Data folder:
+namespace Wibci.CountryReverseGeocode.Models;
 
-    public class AreaData {
-        public AreaData(string id, string name, List<List<List<double>>> coordinates)
-        {
-            this.id = id;
-            this.name = name;
-            this.coordinates = coordinates;
-        }
+//classes used to deserialize json data in Data folder:
 
-        public string id { get; set; }
-        public string name { get; set; }
-
-        public List<List<List<double>>> coordinates { get; set; }
-
+public class AreaData {
+    public AreaData(string id, string name, List<List<List<double>>> coordinates)
+    {
+        this.id = id;
+        this.name = name;
+        this.coordinates = coordinates;
     }
+
+    public string id { get; set; }
+    public string name { get; set; }
+
+    public List<List<List<double>>> coordinates { get; set; }
+
 }

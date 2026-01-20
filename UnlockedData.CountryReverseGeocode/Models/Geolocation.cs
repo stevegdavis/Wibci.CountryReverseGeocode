@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
-namespace UnlockedData.CountryReverseGeocode.Models
+namespace Wibci.CountryReverseGeocode.Models
 {
     public class GeoLocation
     {

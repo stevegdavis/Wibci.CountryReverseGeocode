@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using UnlockedData.CountryReverseGeocode.Models;
+using Wibci.CountryReverseGeocode.Models;
 
-namespace UnlockedData.CountryReverseGeocode.Data
+namespace Wibci.CountryReverseGeocode.Data;
+
+public interface IReverseGeocodeDataProvider
 {
-    public interface IReverseGeocodeDataProvider
-    {
-        List<AreaData> Data { get; }
-     }
-}
+    List<AreaData> Data { get; }
+ }
